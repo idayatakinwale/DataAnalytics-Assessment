@@ -81,8 +81,8 @@ Estimate CLV based on:
 - Estimated CLV and ordered descending.
 
 ### **Challenges**
-- Ensured all amounts were correctly converted from Kobo.
-- Used careful joins to preserve customer identity.
+- Ensuring all amounts were correctly converted from Kobo.
+- Using careful joins to preserve customer identity.
 
 ---
 
