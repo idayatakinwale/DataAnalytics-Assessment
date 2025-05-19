@@ -81,7 +81,6 @@ Estimate CLV based on:
 - Estimated CLV and ordered descending.
 
 ### **Challenges**
-- Some customers had zero tenure (division by zero). Resolved by replacing with 1 month minimum.
 - Ensured all amounts were correctly converted from Kobo.
 - Used careful joins to preserve customer identity.
 
