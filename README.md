@@ -42,6 +42,7 @@ Analyze how often customers transact monthly and categorize them into:
 - Grouped by category and counted number of customers.
 
 ### **Challenges**
+- MySQL version did not support CTEs (`WITH`), so subqueries were used instead.
 - Careful handling of customers with few or spread-out transactions.
 - Date calculations for active periods without errors from null dates.
 
@@ -60,7 +61,6 @@ Find all **active savings or investment accounts** with no inflow transaction in
 
 ### **Challenges**
 - Missing transaction dates on some plans required careful null handling.
-- Needed to return accounts, not users – so grouped at `plan_id` level.
 - Differentiating plan types accurately while combining from two tables.
 
 ---
