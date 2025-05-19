@@ -87,5 +87,4 @@ Estimate CLV based on:
 
 ---
 
-## ✅ Folder Structure
 
